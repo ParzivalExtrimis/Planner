@@ -7,6 +7,9 @@ import 'package:planner/plan_generation/models/prompt_parametric_model.dart';
 class ApiHandle {
   ApiHandle._();
 
+  // TODO: Move aip-key to env file. Required before making repo public
+  // https://pub.dev/packages/dart_openai
+
   static void init() {
     OpenAI.apiKey = 'sk-proj-bPFx5m7nyk1n9Jo6ffheT3BlbkFJ8yICpzq4SwSopSJJHm0H';
   }

@@ -13,6 +13,8 @@ class Preview extends StatefulWidget {
 }
 
 class _PreviewState extends State<Preview> {
+  // TODO: After navigating to Preview, Pop must be handled.
+  // https://api.flutter.dev/flutter/widgets/PopScope-class.html
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
