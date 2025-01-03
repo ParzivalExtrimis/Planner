@@ -11,7 +11,8 @@ class ApiHandle {
   // https://pub.dev/packages/dart_openai
 
   static void init() {
-    OpenAI.apiKey = 'sk-proj-bPFx5m7nyk1n9Jo6ffheT3BlbkFJ8yICpzq4SwSopSJJHm0H';
+    OpenAI.apiKey =
+        '9dtY50y0TLjCXZDYpnVcZrFZlyxPhdxOcW5rDJZI8oVRTT5RQ84gJQQJ99ALAC77bzfXJ3w3AAABACOGdM2d';
   }
 
   static Future<GeneratedPlanModel?> resolve(
