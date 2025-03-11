@@ -10,7 +10,7 @@ class Chat extends StatefulWidget {
 
 Future<String?> chatHandle() async {
   // Set the OpenAI API key from the .env file.
-  OpenAI.apiKey = 'sk-proj-NCMwg5jE0oo5nomI9a12T3BlbkFJJlvfsvDvQRloqjY59sWH';
+  OpenAI.apiKey = '';
 
   // Start using!
   final response = await OpenAI.instance.chat.create(
